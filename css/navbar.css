@@ -1,0 +1,85 @@
+.navbar {
+  width: 100vw;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  padding: 1rem;
+  background-color: white;
+  z-index: 100000;
+  text-align: left;
+}
+
+body {
+  padding-top: 5rem;
+  overflow-x: hidden;
+}
+
+.logo {
+  height: 1.5rem;
+  position: relative;
+  top: .3rem;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
+.navbar-item {
+  position: relative;
+  top: -0.1rem;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.navbar-item.title {
+  font-size: 1.2rem;
+  top: -0rem;
+}
+
+.right-side {
+  text-align: right;
+  display: inline-block;
+  float: right;
+  position: relative;
+  right: 2.25rem;
+  top: -.1rem;
+  margin-bottom: -.2rem;
+}
+
+.right-side .navbar-item.install {
+  background-color: #ff9f00 !important;
+  color: white !important;
+}
+
+.right-side .navbar-item {
+  padding: .5rem;
+  padding-left: .7rem;
+  padding-right: .7rem;
+  border-radius: .4rem;
+  background-color: white;
+  color: black;
+  transition: background-color .3s, color .3s, box-shadow .3s;
+}
+
+.right-side .navbar-item:hover {
+  background-color: #ff9f00;
+  color: white !important;
+}
+
+.navbar {
+  color: black !important;
+}
+
+.title {
+  color: black;
+}
+
+.navbar-item, .title {
+  text-decoration: none !important;
+}
+
+.navbar a {
+  text-decoration: none !important;
+}
+
+.logo {
+  text-decoration: none;
+}

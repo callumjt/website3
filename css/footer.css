@@ -1,0 +1,35 @@
+.footer {
+  text-align: center;
+  background-color: #f5f5f5;
+  position: absolute;
+  left: 0rem;
+  width: 100vw;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+  margin-top: 3rem;
+}
+
+.footer-section-1, .footer-section-2, .footer-section-3 {
+  width: 20rem;
+  max-width: 20vw;
+  display: inline-block;
+}
+
+.footer a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer > [class^="footer-section-"] > a:first-child {
+  margin-top: 1rem;
+}
+
+.footer b {
+      position: relative;
+    bottom: 0.5rem;
+}

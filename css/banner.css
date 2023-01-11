@@ -1,0 +1,45 @@
+.banner {
+  background-color: #ff9f00;
+  position: absolute;
+  left: 0px;
+  width: 100vw;
+  color: white;
+  top: 3.5rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  display: inline-block;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.banner.small {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.banner-section {
+  max-width: 30vw;
+  display: inline-block;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: right;
+}
+
+.banner-section > img {
+  height: 20rem;
+}
+
+.slogan {
+  position: relative;
+  top: -4rem;
+}
+
+body {
+  padding-top: 40rem !important;
+}
+
+body.small-banner {
+  padding-top: 20rem !important;
+}
