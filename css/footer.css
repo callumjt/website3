@@ -9,10 +9,23 @@
   margin-top: 3rem;
 }
 
-.footer-section-1, .footer-section-2, .footer-section-3 {
+.footer-section-1{
   width: 20rem;
   max-width: 20vw;
   display: inline-block;
+}
+.footer-section-2 {
+  width: 20rem;
+  max-width: 20vw;
+  display: inline-block;
+  transform: translate(0px, -23px);
+  
+}
+.footer-section-3 {
+  width: 20rem;
+  max-width: 20vw;
+  display: inline-block;
+  transform: translate(0px, -23px);
 }
 
 .footer a {
